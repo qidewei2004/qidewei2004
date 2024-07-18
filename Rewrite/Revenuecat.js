@@ -2,8 +2,7 @@
 
 项目名称：Revenuecat 系列解锁合集
 脚本作者：1-chxm1023,...
-
-*************************************/
+电报频道：1-https://t.me/chxm1023,...
 
 [rewrite_local]
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js
@@ -315,7 +314,7 @@ if (typeof $response == "undefined") {
     chxm1023.subscriber.subscriptions[idb] = subData;
   }
   chxm1024.body = JSON.stringify(chxm1023);
-  console.log('已操作成功🎉🎉🎉\n叮当猫の分享频道: https://t.me/chxm1023');
+  console.log('已操作成功🎉🎉🎉\n');
 }
 
 $done(chxm1024);
