@@ -26,9 +26,6 @@ I'm a university student from mainland China, and my unique interest lies in app
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/dewei2004?mibextid=LQQJ4d)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/qidewei2004)
 
-## 🎨 Anime GIFs
 
-![Anime Gif](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
-![Anime Girl](https://media.giphy.com/media/3ohzdYJK1wAdPWVk88/giphy.gif)
-![Cool Anime](https://media.giphy.com/media/1xkEym0BXHJ6A/giphy.gif)
+
 
