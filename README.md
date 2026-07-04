@@ -13,7 +13,7 @@
 
 <!-- 打字机副标题 -->
 <a href="https://github.com/junchan0412">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=5B8DEF&center=true&vCenter=true&width=520&lines=%E4%B8%BA%E6%9B%B4%E9%A1%BA%E7%95%85%E7%9A%84%E7%BD%91%E7%BB%9C%E4%BD%93%E9%AA%8C%E9%80%A0%E5%B7%A5%E5%85%B7;Building+open-source+tooling+for+Surge;Python+%C2%B7+Automation+%C2%B7+Clean+Engineering" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=5B8DEF&center=true&vCenter=true&width=640&lines=Building+practical+macOS+and+networking+tools;Surge+%C2%B7+macOS+%C2%B7+AI+assistant+%C2%B7+Automation;%E6%8A%8A%E6%97%A5%E5%B8%B8%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B7%A5%E4%BD%9C%E6%B5%81%E5%81%9A%E6%88%90%E5%8F%AF%E5%A4%8D%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7" alt="typing" />
 </a>
 
 </div>
@@ -28,8 +28,8 @@
 
 ### 👋 你好，我是瞻君 &nbsp;·&nbsp; Hi, I'm junchan0412
 
-热衷于把繁琐的配置变成优雅、可复现、自动化的工具。<br/>
-<sub>I turn tedious configuration into elegant, reproducible, automated tools.</sub>
+我在做一些能长期自用、可公开复用的 macOS、AI 与代理客户端工具。<br/>
+<sub>I build practical macOS, AI and proxy-client tools that are useful enough to keep using.</sub>
 
 </div>
 
@@ -41,10 +41,10 @@
 
 <div align="center">
 
-## 🚀 开源项目 · Open Source
+## 🚀 主要项目 · Featured Projects
 
-一套围绕 Surge 的公开项目，三个仓库各司其职。<br/>
-<sub>Three public repos that cover config packaging, validation, and ruleset generation.</sub>
+当前主要维护三个方向：代理配置、macOS AI 助手、Surge 模块管理。<br/>
+<sub>Focused on proxy-client configuration, a macOS AI assistant, and Surge module management.</sub>
 
 </div>
 
@@ -57,50 +57,48 @@
 ### ⚙️ proxy-configs
 
 **代理客户端配置合集**<br/>
-<sub>Public config templates for Surge, Shadowrocket, Quantumult X and Mihomo.</sub>
+<sub>Reusable proxy-client configuration templates.</sub>
 
-适合叠加到现有主配置的公开模板与增强模块。<br/>
-<sub>Composable public templates and enhancement modules.</sub>
+覆盖 Surge、Shadowrocket、Quantumult X 与 Mihomo / Clash。公开版不含节点、订阅、证书或本地隐私路径，适合叠加到已有主配置中。<br/>
+<sub>Composable public templates for Surge, Shadowrocket, Quantumult X and Mihomo / Clash, without private nodes or local secrets.</sub>
 
-`Config` · `public templates` · `MIT`
+`Surge` · `Mihomo` · `Shadowrocket` · `Quantumult X`
 
 [**→ 查看 / View**](https://github.com/junchan0412/proxy-configs)
 
 </td>
 <td width="33%" valign="top">
 
-### 🩺 surge-doctor
+### ✨ SnapAI
 
-**Surge 配置体检 linter**<br/>
-<sub>A linter for Surge config & modules.</sub>
+**macOS 菜单栏 AI 助手**<br/>
+<sub>A menu bar AI assistant for macOS.</sub>
 
-在重载前揪出结构性错误、语义冲突、失效引用与安全隐患。<br/>
-<sub>Catches structural errors, conflicts, dead refs & security issues before reload.</sub>
+在任意应用中选中文字，用全局快捷键提问、翻译、润色、总结或解释代码；也支持快捷提问面板、图片输入、差异预览和安全写回。<br/>
+<sub>Select text anywhere, then ask, translate, polish, summarize or explain code with global shortcuts.</sub>
 
-`Python` · `48 tests` · `MIT`
+`Swift` · `macOS` · `AI` · `Keychain`
 
-[**→ 查看 / View**](https://github.com/junchan0412/surge-doctor)
+[**→ 查看 / View**](https://github.com/junchan0412/SnapAI)
 
 </td>
 <td width="33%" valign="top">
 
-### 🏭 surge-ruleset-forge
+### 📡 SurgeRelay-macOS
 
-**规则集构建器**<br/>
-<sub>A ruleset builder.</sub>
+**Surge 模块管理与发布工具**<br/>
+<sub>A macOS app for managing and publishing Surge modules.</sub>
 
-下载、合并、去重、分类上游规则源，产出干净可订阅的规则集，每日自动重建。<br/>
-<sub>Fetches, merges, dedupes & classifies rulesets — rebuilt daily.</sub>
+集中管理远程与本地 `.sgmodule`，支持 Script-Hub 转换、分类发布、本地目录同步、GitHub 发布、Web 管理和 Sparkle 自动更新。<br/>
+<sub>Manage, convert, organize and publish Surge modules to local folders or GitHub repositories.</sub>
 
-`Python` · `CI daily` · `MIT`
+`Swift` · `Surge` · `Script-Hub` · `Sparkle`
 
-[**→ 查看 / View**](https://github.com/junchan0412/surge-ruleset-forge)
+[**→ 查看 / View**](https://github.com/junchan0412/SurgeRelay-macOS)
 
 </td>
 </tr>
 </table>
-
-<sub>另有私有备份仓库 <code>proxy-configs-private</code>，用于本地 Surge 配置同步。</sub>
 
 <br/>
 
@@ -112,10 +110,11 @@
 
 ## 🛠 技术栈 · Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Surge](https://img.shields.io/badge/Surge-5B8DEF?style=for-the-badge&logo=icloud&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 <br/>
